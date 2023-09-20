@@ -1,0 +1,17 @@
+.validation-rule-option {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+   }
+  
+   .validation-rule-option svg {
+    margin:  4px 4px 4px 0;
+   }
+  
+    .validation-input{
+      background: transparent;
+      border: none;
+      outline: none;
+      padding: 4px;
+    }
+  

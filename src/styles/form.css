@@ -1,0 +1,80 @@
+.form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 450px; 
+    margin: 0 auto;
+    background-color: #f8f8f8; 
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .header{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-item {
+    position: relative;
+    display: flex;
+    padding: 5px;
+    max-width: 350px;
+    font-size: 16px;
+  }
+
+  .form-item label {
+    min-width: 120px
+  }
+
+  .form-item > div{
+    display: flex;
+  flex: 1;
+  }
+  .form-item > div > div, .text-area{
+    width: 100%;
+  }
+  .form-label{
+    padding:0 5px;
+    font-weight: bold;
+  }
+  
+  .text-area{
+    max-width: 300px;
+    min-height: 70px;
+    min-width: 250px;
+    max-height: 200px;
+    padding: 5px;
+  }
+
+  .button-container{
+    display: flex;
+    justify-content: center;
+  }
+
+   .submit-button {
+    background-color: #007bff;
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 10px 20px; 
+    margin: 10px 0; 
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+
+  .submit-button:hover {
+    background-color: #0056b3; 
+  }
+
+  .submit-button:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed; 
+  }
+
+ .required::before {
+    position: absolute;
+    left: 0;
+    content: '*';
+    color: red;
+ }

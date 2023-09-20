@@ -1,0 +1,40 @@
+  .select-container{
+    display: flex;
+     align-items: center;
+  }
+  
+  .selected-option {
+    padding: 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 250px
+  }
+  
+  .selected-option:hover {
+    background-color: #e0e0e0;
+  }
+  
+.select-option {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+   .select-option:hover  {
+    background-color: #e0e0e0;
+   }
+  
+   .selected {
+    background: #f8f8f8;
+   }
+    
+   .selected svg{
+    margin-right: 4px;
+   }
+  
