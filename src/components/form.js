@@ -119,7 +119,7 @@ const Form = () => {
 
     return (
         <div className="form-container">
-            <h1 className='header'>Iguazio Form</h1>
+            <h1 className='header'>Create New Form</h1>
             <div className={`form-item ${addIsRequiredClass(formModel['metadata.name'].validation.required)}`}>
                 <InputValidationText
                     name="metadata.name"
